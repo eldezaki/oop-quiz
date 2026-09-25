@@ -2,7 +2,7 @@ package id.ac.polinema.oop;
 
 public class Order {
     private Customer customer;
-    private OrderItem[] items;
+    private OrderItem[] items = new OrderItem[10];
     private int itemCount;
 
     public Order(Customer customer) {

@@ -12,7 +12,6 @@ package id.ac.polinema.oop;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Complete the classes first, then write your demo here.");
         Menu menu = new Menu();
         menu.addMenuItem(new MenuItem("Sate", 15000));
         menu.addMenuItem(new MenuItem("Es Teh Anget", 5000));
