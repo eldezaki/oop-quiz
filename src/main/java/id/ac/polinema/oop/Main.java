@@ -29,6 +29,6 @@ public class Main {
         System.out.println("Payable  : " + order.getFinalTotal());
         System.out.println("Cash     : " + cash);
         System.out.println("Change   : " + cashier.calculateChange(order, cash));
-}
     }
 }
+
