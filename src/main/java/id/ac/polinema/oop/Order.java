@@ -35,8 +35,9 @@ public class Order {
 
     public double getFinalTotal() {
         double total = getTotal();
-        if (total > 100000) {
+        if (total >= 100000) {
             total *= 0.9;
+            System.out.println("Diskon 10% yatta");
         }
         return total;
     }

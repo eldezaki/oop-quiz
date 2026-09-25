@@ -13,13 +13,13 @@ public class Main {
 
     public static void main(String[] args) {
         Menu menu = new Menu();
-        menu.addMenuItem(new MenuItem("Sate", 15000));
+        menu.addMenuItem(new MenuItem("Sate", 10000));
         menu.addMenuItem(new MenuItem("Es Teh Anget", 5000));
         menu.addMenuItem(new MenuItem("Spicy Lemonade", 20000));
 
         Customer Eris = new Customer("C001", "Eris");
         Order order = new Order(Eris);
-        order.addItem(menu.findItem("Sate"), 2);
+        order.addItem(menu.findItem("Sate"), 10);
 
         Cashier cashier = new Cashier();
         double cash = 50000;
